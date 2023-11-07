@@ -1,0 +1,164 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body, html {
+    height: 50%; /* Make the page twice as tall */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+h1 {
+    padding-top: rem;
+}
+.main {
+    padding-top: 60px; /* Give some space for the fixed header */
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #3e3e3e;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #ccc;
+}
+h1 {
+    padding-top: rem;
+}
+.main {
+    padding-top: 60px; /* Give some space for the fixed header */
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: black;
+    color: white;
+    transition: background-color 0.3s ease;
+    border: 2px solid white; /* Add this line for a white border */
+}
+
+
+.btn:hover {
+    background-color: black;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; /* Changed from 100vh to auto */
+    padding: 4rem 0; /* Added padding to top and bottom instead of margin-bottom */
+}
+  
+.centered-image {
+    max-width: 90%; /* Keep the max-width as is */
+    max-height: 50vh; /* Adjust max-height to 50vh or whatever you prefer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Keep the shadow if you like */
+    margin-top: 4rem; /* Adjust this to space the image from the header */
+}
+  
+main {
+    color: white; /* This will make all text inside <main> white */
+  }
+
+  
+#about {
+    margin-top: 2rem; /* Space above the about section */
+    color: white; /* Ensure text is white */
+    /* other styles for #about section */
+}
+  
